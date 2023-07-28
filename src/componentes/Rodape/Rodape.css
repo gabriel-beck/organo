@@ -1,0 +1,26 @@
+.rodape {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px 0;
+    background: #6278F7;
+    background-image: url(/public/imagens/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rodape h4 {
+    font-family: Montserrat;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
